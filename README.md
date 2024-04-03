@@ -42,7 +42,6 @@ In order to stop nginx from running, run the following code:
 
 	`sudo systemctl stop nginx`
 
-
 **Nginx Configuration**
 
 Now that nginx can properly run, we can configure our server to host our owndata.
@@ -97,8 +96,8 @@ For now, let's try hosting our own server. Under the *http* block, I will have a
 		server_name _;
 
 		location \ {
-			root /file/location/directory
-			index website.html
+			root /usr/share/nginx/html/
+			index website.html website.htm;
 		}
 	}
 ```
