@@ -82,10 +82,10 @@ following code:
 
 These server blocks will hold all information regarding each respective server. In order to understand the server blocks, it is important to define each line.
 
-listen - this will determine what port your server is held in 
+listen - this will determine what port your server is held in  
 server_name - this is where your server is held. Domain names often go here. If you would like to use your IP address, use an underscore (_)
 
-root - this is the directory of what your server will hold 
+root - this is the directory of what your server will hold  
 index - this is for files in the directory that will be hosted. HTML and HTM files often go here
 
 
